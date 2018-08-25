@@ -14,4 +14,4 @@ try {
    echo "Caught: ${err}"
    currentBuild.result = 'FAILURE'
    throw err
-}          
+}         
